@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jobs - Kasonde Digital Services</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f7fa;
+    }
+
+    /* Header */
+    header {
+        background: #003366;
+        color: white;
+        padding: 18px 0;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    /* Main container */
+    .container {
+        max-width: 900px;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    /* Search bar */
+    .search-bar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .search-bar input {
+        width: 80%;
+        padding: 12px 14px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    /* Job grid */
+    .job-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    /* Job card */
+    .job-card {
+        background: white;
+        padding: 18px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: 0.25s;
+    }
+
+    .job-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .job-card h3 {
+        margin-top: 0;
+        color: #003366;
+        font-size: 20px;
+    }
+
+    .job-info {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .apply {
+        display: inline-block;
+        padding: 8px 14px;
+        background: #007bff;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .apply:hover {
+        background: #0056b3;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 50px;
+        background: #003366;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    KASONDE DIGITAL SERVICES
+</header>
+
+<div class="container">
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search for a job...">
+    </div>
+
+    <h2 style="text-align:center; margin-bottom: 20px; color:#003366;">Available Jobs</h2>
+
+    <div class="job-grid">
+
+        <div class="job-card">
+            <h3>Sales Assistant</h3>
+            <p class="job-info">Location: Lusaka<br>Salary: K3,000</p>
+            <p>Assist with customer service, stock updates, and sales operations.</p>
+            <a href="#" class="apply">Apply</a>
+        </div>
+
+        <div class="job-card">
+            <h3>Graphic Designer</h3>
+            <p class="job-info">Location: Kitwe<br>Salary: K5,500</p>
+            <p>Design flyers, logos, social media content, and branding materials.</p>
+            <a href="#" class="apply">Apply</a>
+        </div>
+
+        <div class="job-card">
+            <h3>Receptionist</h3>
+            <p class="job-info">Location: Ndola<br>Salary: K4,000</p>
+            <p>Manage front desk operations and provide customer support.</p>
+            <a href="#" class="apply">Apply</a>
+        </div>
+
+        <div class="job-card">
+            <h3>IT Support Technician</h3>
+            <p class="job-info">Location: Lusaka<br>Salary: K6,200</p>
+            <p>Handle troubleshooting, system maintenance, and user support.</p>
+            <a href="#" class="apply">Apply</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2025 Kasonde Digital Services. All rights reserved.
+</footer>
+
+</body>
+</html>
